@@ -1,21 +1,20 @@
-# Globalia-Nexus
-# Globalia-Nexus - Deep Analysis Bot
-where nations, data, and decisions converge.
+# GeoPolitics AI - Deep Analysis Bot
+
 An advanced AI-powered geopolitical analysis platform providing real-time insights on global conflicts, country vulnerabilities, economic trends, and security threats.
 
 ## Features
 
 ### 🧠 AI-Powered Analysis
-- *ChatGPT Integration*: Real-time AI responses for geopolitical queries
-- *Deep Analysis Engine*: Comprehensive conflict and vulnerability assessments
-- *Smart Search*: Intelligent filtering across all data categories
-- *Real-time Updates*: Live monitoring of global situations
+- **ChatGPT Integration**: Real-time AI responses for geopolitical queries
+- **Deep Analysis Engine**: Comprehensive conflict and vulnerability assessments
+- **Smart Search**: Intelligent filtering across all data categories
+- **Real-time Updates**: Live monitoring of global situations
 
 ### 🌍 Global Coverage
-- *Active Conflicts*: 10+ ongoing conflicts with detailed tracking
-- *Vulnerability Assessment*: 10 countries analyzed across 8 dimensions
-- *Regional Analysis*: Coverage of all major geopolitical regions
-- *Economic Intelligence*: Trade wars, sanctions, and market impacts
+- **Active Conflicts**: 10+ ongoing conflicts with detailed tracking
+- **Vulnerability Assessment**: 10 countries analyzed across 8 dimensions
+- **Regional Analysis**: Coverage of all major geopolitical regions
+- **Economic Intelligence**: Trade wars, sanctions, and market impacts
 
 ### 🔍 Analysis Categories
 - Military tensions and conflicts
@@ -29,34 +28,34 @@ An advanced AI-powered geopolitical analysis platform providing real-time insigh
 ## Setup Instructions
 
 ### 1. Clone and Install
-bash
+```bash
 git clone <repository-url>
 cd geopolitics-ai-bot
 npm install
-
+```
 
 ### 2. Configure OpenAI API (Optional but Recommended)
 1. Copy the environment file:
-   bash
+   ```bash
    cp .env.example .env
-   
+   ```
 
 2. Get your OpenAI API key:
    - Visit [OpenAI Platform](https://platform.openai.com/api-keys)
    - Create a new API key
    - Copy the key
 
-3. Add your API key to .env:
-   
+3. Add your API key to `.env`:
+   ```
    VITE_OPENAI_API_KEY=your_actual_api_key_here
-   
+   ```
 
 4. Restart the development server
 
 ### 3. Start Development Server
-bash
+```bash
 npm run dev
-
+```
 
 ## ChatGPT Integration
 
@@ -90,9 +89,9 @@ The current implementation uses browser-based API calls for development. In prod
 - No-results states with helpful guidance
 
 ### 📊 Comprehensive Data
-- *Conflicts*: Russia-Ukraine, India-Pakistan, China-India, North Korea, Iran-Israel, and more
-- *Vulnerabilities*: Military, Economic, Energy, Food, Cyber, Climate, Social, Political
-- *Regions*: South Asia, East Asia, Middle East, Eastern Europe, Africa, Southeast Asia
+- **Conflicts**: Russia-Ukraine, India-Pakistan, China-India, North Korea, Iran-Israel, and more
+- **Vulnerabilities**: Military, Economic, Energy, Food, Cyber, Climate, Social, Political
+- **Regions**: South Asia, East Asia, Middle East, Eastern Europe, Africa, Southeast Asia
 
 ### 🤖 AI Assistant
 - Powered by ChatGPT-4 for advanced analysis
@@ -102,12 +101,12 @@ The current implementation uses browser-based API calls for development. In prod
 
 ## Technology Stack
 
-- *Frontend*: React 18 + TypeScript
-- *Styling*: Tailwind CSS
-- *Icons*: Lucide React
-- *AI*: OpenAI GPT-4 API
-- *Build Tool*: Vite
-- *Routing*: React Router DOM
+- **Frontend**: React 18 + TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **AI**: OpenAI GPT-4 API
+- **Build Tool**: Vite
+- **Routing**: React Router DOM
 
 ## Usage Examples
 
